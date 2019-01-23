@@ -12,10 +12,12 @@ The nextInLine function should then return the element that was removed.
 */
 
 function nextInLine(arr, item) {
-    // Your code here
+    let newArr = arr.push(item)
+    let removedItem = arr.shift()
     
-    return item;  // Change this line
+    return removedItem;
 }
+
     
 // Test Setup
 var testArr = [1,2,3,4,5];
